@@ -24,7 +24,7 @@ export default function App() {
 
         {/* Right side: dynamic list */}
         <section className="summary">
-          <h3>Summary</h3>
+          <p>Summary</p>
           <ResultsList data={data} />
           <button className="btn">Continue</button>
         </section>
