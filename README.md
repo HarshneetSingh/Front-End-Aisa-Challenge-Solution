@@ -28,8 +28,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/HarshneetSingh/Front-End-Aisa-Challenge-Solution))
-- Live Site URL: [Add live site URL here](aisa-challenge-solution.netlify.app)
+- Solution URL: [https://github.com/HarshneetSingh/Front-End-Aisa-Challenge-Solution]
+- Live Site URL: [https://aisa-challenge-solution.netlify.app]
 
 ## My process
 
