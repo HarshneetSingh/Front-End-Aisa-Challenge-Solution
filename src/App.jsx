@@ -14,15 +14,15 @@ export default function App() {
       .then((res) => res.json())  // convert response to JS object
       .then((json) => setData(json))  // save data into state
       .catch((err) => console.error("Error loading data:", err));
-  }, []); // [] means this only runs once when component is first shown
+  }, []);  
 
   return (
     <main className="page">
       <div className="card">
-        {/* Left side: score + result text */}
+        {/* Result pop-up */}
         <ResultPopUp data={data} />
 
-        {/* Right side: dynamic list */}
+        {/* bottom: dynamic list */}
         <section className="summary">
           <p>Summary</p>
           <ResultsList data={data} />

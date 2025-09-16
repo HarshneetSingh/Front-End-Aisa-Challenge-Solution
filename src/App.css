@@ -4,60 +4,71 @@
   font-size: 18px;
   height: 100vh;
 }
-.card {
 
-  background: white;
+.card {
+  background: var(--pale-blue);
   overflow: hidden;
-  min-width: 350px;
-  max-width: 100%;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  min-width: 375px;
 }
+
 .result {
-  position: relative ;
+  position: relative;
   background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
   text-align: center;
   color: white;
   padding: 10px 1rem;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   height: 41vh;
 }
+
 .fs-15 {
   font-size: 15px;
   font-weight: 600;
-  
+  margin: 0;
 }
-.cLavender{
+
+.cLavender {
   color: var(--lavender);
 }
+
+.cGreen {
+  color: var(--green);
+}
+
 .fw-400 {
   font-weight: 400;
 }
+
 .score-circle {
   position: relative;
   background-image: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
   border-radius: 50%;
-  width: 40%;
-  height: 40%;
+  width: 120px;
+  height: 120px;
   align-items: center;
   margin: 0 auto;
 }
+
 .score-num {
   display: flex;
   justify-content: center;
   font-size: 54px;
   margin: 0;
   font-weight: 900;
-  padding: 0;
+  padding: 5px 0 0 0;
 }
+
 .summary {
   padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  min-height: 50vh;
+  height: 50vh;
   font-weight: 600;
 }
+
 .summary-list {
   display: flex;
   flex-direction: column;
@@ -67,6 +78,7 @@
   padding: 0;
   margin: 0;
 }
+
 .summary-item {
   list-style-type: none;
   display: flex;
@@ -75,11 +87,18 @@
   padding: 0.01rem 0.5rem;
   margin-bottom: 15px;
 }
+
 .summary-item:hover {
   transform: scale(1.02);
   transition: 0.5s;
   cursor: pointer;
 }
+
+.summary-left {
+  display: flex;
+  align-items: left;
+}
+
 .btn {
   width: 100%;
   padding: 1rem;
@@ -91,6 +110,7 @@
   cursor: pointer;
   margin-top: 0;
 }
+
 .btn:hover {
   transform: scale(1.02);
   transition: 0.4s;
